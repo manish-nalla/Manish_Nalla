@@ -16,6 +16,7 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    background-color: rgb(36, 36, 36);
 }
 
 .headingLogo{
@@ -49,3 +50,17 @@
     padding-bottom: 0.3rem;
     border-bottom: 0.2rem solid var(--hoverColor);
 }
+
+@media screen and (max-width:1024px) {
+    .linkitem a{
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+    .linkitem a{
+        display: none;
+    }
+}
+

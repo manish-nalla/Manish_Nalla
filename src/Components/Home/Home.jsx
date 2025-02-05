@@ -14,7 +14,7 @@ const Home = () => {
                 <ul className='social-links'>
                     <li className='social-linkitems'><a href="https://www.linkedin.com/in/manish-nalla/"><i class="fa-brands fa-linkedin"></i></a></li>
                     <li className='social-linkitems'><a href="https://github.com/manish-nalla" ><i class="fa-brands fa-github"></i></a></li>
-                    <li className="social-linkitems"><a href="https://drive.google.com/file/d/12GpAH9ci1ptx904t-i7T0FQKeoTwxfLI/view?usp=drive_link"><i class="fa-solid fa-download"></i></a></li>
+                    <li className="social-linkitems"><a href='/Manish-Nalla-Resume.pdf' target='_blank' rel='noopener noreferrer'><i class="fa-solid fa-download"></i></a></li>
                 </ul>
             </div>
             <img src={my_image} alt="Profile" className="bg" />
