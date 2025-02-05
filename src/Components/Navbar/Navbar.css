@@ -1,0 +1,51 @@
+:root{
+    --main:rgb(0, 225, 255);
+    --hoverColor:rgb(0, 150, 255);
+}
+
+
+.mainnavbar{
+    height: 5rem;
+    width: 100vw;
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.headingLogo{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--main);
+}
+
+.links{
+    display: flex;
+    list-style: none;
+}
+
+.linkitem a{
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--main);
+    transition: border-bottom 0.2s ease;
+}
+
+.linkitem a:hover{
+    color: var(--hoverColor);
+    padding-bottom: 0.3rem;
+    border-bottom: 0.2rem solid var(--hoverColor);
+}
+
+.linkitem a.active{
+    color: var(--hoverColor);    
+    padding-bottom: 0.3rem;
+    border-bottom: 0.2rem solid var(--hoverColor);
+}

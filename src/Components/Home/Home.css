@@ -1,0 +1,83 @@
+:root{
+    --main:rgb(0, 225, 255);
+    --hoverColor:rgb(0, 150, 255);
+}
+
+
+.intro{
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 80vw;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg{
+    position: absolute;
+    top: -1vh;
+    right: -6vw;
+    z-index: -1;
+    height: 100vh;
+    width: 50vw;
+    object-fit: cover;
+}
+
+.introcontent{
+    width: 45vw;
+    height: 100vh;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.name, .position{
+    color: var(--main);
+    font-size: 2.8rem;
+}
+
+.intropara{
+    font-size: 1rem;
+}
+
+.intropara a{
+    color: var(--main);
+    transition: color .3s ease;
+}
+
+.intropara a:hover{
+    color: var(--hoverColor);
+    border-bottom: 1px solid var(--hoverColor);
+}
+
+.social-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.social-linkitems a{ 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 0.2rem solid var(--main);
+    border-radius: 50%;
+    margin: 2rem 1rem 2rem 0;
+    font-size: 1.7rem;
+    transition: 0.3s ease;
+    color: var(--main);
+}
+
+.social-linkitems a:hover{
+    color: black;
+    background-color: var(--hoverColor);
+    box-shadow: 0 0 20px var(--hoverColor);
+    transform: scale(1) translateY(-2px);
+}
