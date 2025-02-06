@@ -58,7 +58,7 @@
 
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:768px) {
     .linkitem a{
         display: none;
     }
