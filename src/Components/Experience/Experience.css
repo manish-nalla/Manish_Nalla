@@ -79,9 +79,35 @@
 }
 
 @media screen and (max-width:1024px) {
+
+    .mainexperience{
+        height: auto;
+    }
     .container{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .company_logo{
+        width: 40%;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .mainexperience{
+        height: auto;
+        padding-top: 5rem;
+        justify-content: flex-start;
+    }
+
+    .list1{
+        line-height: 1.6;
+        font-size: .9rem;
+    }
+
+    .company_logo{
+        width: 60%;
     }
 }
