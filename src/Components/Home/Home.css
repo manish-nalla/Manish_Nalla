@@ -18,7 +18,7 @@
 }
 
 .bg{
-    height: 120vh;
+    height: auto;
     width: 50%;
     object-fit: cover;
     position: absolute;
@@ -126,6 +126,7 @@
         width: 100%;
         padding-right: 0;
         text-align: center; 
+        height: auto;
     }
 
     .name, .position{
