@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5rem;
 }
 
 .skills_list{
@@ -13,7 +14,6 @@
     grid-template-columns: auto auto auto auto;
     padding: 1rem;
     margin: 1rem;
-    gap: 3rem 4rem;
 }
 
 .skills_listItem{
@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 1024px) {
     .skills_list{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         gap: 3rem 0;
     }
 
@@ -56,10 +56,10 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
 
     .skills_list{
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
         gap: 0;
     }
 
@@ -68,6 +68,6 @@
     }
 
     .skills_name{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }

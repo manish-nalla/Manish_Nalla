@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5rem;
 }
 
 .main_contact {
@@ -33,7 +34,6 @@
     justify-content: center;
     background-color: white;
     width: 40vw;
-    max-width: 30vw;
     color: black;
     height: auto;
     border: none;
@@ -111,4 +111,47 @@
 .submit_btn:hover {
     box-shadow: 0 0 5px rgb(0, 225, 255);
     transform: scale(1) translateY(-1.5px);
+}
+
+@media screen and (max-width:1024px) {
+    .details a{
+        font-size: .8rem;
+    }
+    .details span{
+        font-size: .8rem;
+    }
+    .submit_btn{
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width:780px){
+    .hire_form{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my_contact{
+        width: 70%;
+        height: 40vh;
+    }
+
+    .submit_btn{
+        width: 15vw;
+    }
+
+    .CTA{
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .my_contact{
+        width: 80vw;
+        height: 50vh;
+    }
+
+    .CTA{
+        font-size: 1rem;
+    }
 }

@@ -5,7 +5,7 @@
 }
 
 hr{
-    margin: 2rem 0;
+    margin-top: 2rem;
 }
 
 .footer_main{
@@ -24,7 +24,6 @@ hr{
 
 .sociallink{
     padding: .8rem;
-    font-size: 1.7rem;
 }
 
 .terms{
@@ -36,7 +35,35 @@ hr{
     padding: .4rem;
 }
 
-.social a{
-    background-color: transparent;
+.terms_privacy a{
     color: white;
+}
+
+.sociallink a{ 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 0.2rem solid var(--main);
+    border-radius: 50%;
+    font-size: 1.7rem;
+    transition: 0.3s ease;
+    color: var(--main);
+}
+
+.sociallink a:hover{
+    color: black;
+    background-color: var(--hoverColor);
+    box-shadow: 0 0 20px var(--hoverColor);
+    transform: scale(1) translateY(-2px);
+}
+
+
+@media screen and (max-width: 780px) {
+    .footer_main{
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
