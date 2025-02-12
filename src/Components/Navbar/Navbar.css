@@ -115,14 +115,14 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
     .sidebar{
         width: 100vw;
         align-items: center;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .sidebar{
         display: none;
     }
