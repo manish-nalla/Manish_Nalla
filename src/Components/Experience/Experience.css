@@ -35,7 +35,10 @@
     color: black;
     border: none;
     border-radius: 3rem;
-    box-shadow: .5rem .5rem 1rem var(--main);
+}
+
+.company_logo:hover{
+    box-shadow: 0 0 1rem var(--main);
 }
 
 .logo {

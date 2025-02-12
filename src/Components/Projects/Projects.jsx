@@ -5,9 +5,9 @@ import { FaGithub } from "react-icons/fa";
 const Projects = () =>{
 
     const projects_array =[
-        {id:1, name:"Expense Tracker", technologies: 'React, JavaScript', icon: <img src={expenseImage} alt='Expense_Tracker' width={180}/>, github: 'https://github.com/manish-nalla/expense_tracker', live: "https://trackyourspends.netlify.app/"},
-        {id:2, name:"Expense Tracker", technologies: 'React, JavaScript', icon: <img src={expenseImage} alt='Expense_Tracker' width={180}/>, github: '', live: ""},
-        {id:3, name:"Expense Tracker", technologies: 'React, JavaScript', icon: <img src={expenseImage} alt='Expense_Tracker' width={180}/>, github: '', live: ""}
+        {id:1, name:"Expense Tracker", technologies: 'React, JavaScript', icon: <img src={expenseImage} alt='Expense_Tracker'/>, github: 'https://github.com/manish-nalla/expense_tracker', live: "https://trackyourspends.netlify.app/"},
+        {id:2, name:"Expense Tracker", technologies: 'React, JavaScript', icon: <img src={expenseImage} alt='Expense_Tracker'/>, github: '', live: ""},
+        {id:3, name:"Expense Tracker", technologies: 'React, JavaScript', icon: <img src={expenseImage} alt='Expense_Tracker'/>, github: '', live: ""}
     ]
 
     return (
@@ -20,8 +20,8 @@ const Projects = () =>{
                             <div className="project_name">{project.name}</div>
                             <div className="project_technologies">{project.technologies}</div>
                             <div className="link_btn">
-                                <button ><a href={project.github} target='_blank' rel="noopener noreferrer"><FaGithub size={20}/></a></button>
-                                <button><a href={project.live} target='_blank' rel='noopener noreferrer'>Live Demo</a></button>
+                                <button className='github_link link'><a href={project.github} target='_blank' rel="noopener noreferrer"><FaGithub size={20}/></a></button>
+                                <button className='website_link link'><a href={project.live} target='_blank' rel='noopener noreferrer'>Demo</a></button>
                             </div>
                         </div>
                     ))}
@@ -29,6 +29,5 @@ const Projects = () =>{
         </div>
     );
 }
-
 
 export default Projects;

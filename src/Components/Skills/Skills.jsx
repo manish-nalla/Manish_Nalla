@@ -24,9 +24,8 @@ const Skills = () =>{
         {id:12, name: 'Algorithms', icon: <img src={AlgorithmsImage} alt='AlgorithmsImage' width={100}/>},
         {id:13, name: 'MySQL', icon: <SiMysql size={100}/>}
     ];
-
+    
     return (
-
         <div className='skills_container' id='Skills'>
             <h1 className='heading'>Skills</h1>
             <ul className='skills_list'>

@@ -3,10 +3,143 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
 }
 
-.projects_desc{
-    font-size: 2rem;
-    font-style: italic;
+.card_container{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    padding: 1.5rem;
+    background-color: rgb(70, 70, 70);
+    border: none;
+    border-radius: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1) translateY(-4px);
+    box-shadow: 0 0 10px rgb(0, 225, 255);
+    background-color: rgba(255, 255, 255, 0.664);
+    color: rgb(36, 36, 36);
+}
+
+.project_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_icon img{
+    width: 9rem;
+}
+
+.project_name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.project_technologies{
+    margin: .5rem 0;
+    padding-bottom: .5rem;
+}
+
+.link_btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    border: none;
+    border-radius: .5rem;
+    width: 4.7rem;
+    height: 2rem;
+    padding: .2rem .3rem;
+    font-weight: 600;
+    background-color: rgb(0, 225, 255);
+    cursor: pointer;
+    transition: all .3s ease;
+    font-size: 1rem;
+}
+
+.link:hover{
+    background-color: rgb(0, 225, 255);
+    box-shadow: 0 0 20px rgb(0, 225, 255);
+    transform: scale(1) translateY(-2px);
+}
+
+@media screen and (max-width: 1024px) {
+    .card_container{
+        padding: .5rem;
+        justify-content: space-around;
+    }
+    .card{
+        padding: 1rem;
+
+    }
+    .project_icon img{
+        width: 7rem;
+    }
+    .project_name{
+        font-size: 1.2rem;
+    }
+
+    .link{
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .card_container{
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 40%;
+    }
+    
+    .project_icon img{
+        width: 10rem;
+    }
+
+    .project_name{
+        font-size: 1.5rem;
+    }
+    .link_btn{
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (max-width:560px) {
+    .card_container{
+        gap: 1.25rem;
+        width: 60%;
+    }
+
+    .project_icon img{
+        width: 9rem;
+    }
+    .project_name{
+        font-size: 1.2rem;
+    }
+    .project_technologies{
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .card_container{
+        width: 80%;
+    }
+    .project_icon img{
+        width: 7rem;
+    }
 }

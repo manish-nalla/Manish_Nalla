@@ -1,0 +1,42 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+hr{
+    margin: 2rem 0;
+}
+
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+}
+
+.sociallink{
+    padding: .8rem;
+    font-size: 1.7rem;
+}
+
+.terms{
+    list-style: none;
+    display: flex;
+}
+
+.terms_privacy{
+    padding: .4rem;
+}
+
+.social a{
+    background-color: transparent;
+    color: white;
+}
