@@ -1,0 +1,16 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-family: "Roboto", serif;
+}
