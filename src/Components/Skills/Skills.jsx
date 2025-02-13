@@ -10,7 +10,6 @@ import { useState, useEffect } from 'react';
 
 const Skills = () => {
     const [iconSize, setIconSize] = useState(60);
-    console.log("Current icon size:", iconSize);
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth <= 450) {
