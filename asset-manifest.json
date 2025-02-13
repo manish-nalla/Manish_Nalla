@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Manish_Nalla/static/css/main.91487c14.css",
-    "main.js": "/Manish_Nalla/static/js/main.bd07d39b.js",
+    "main.css": "/Manish_Nalla/static/css/main.df5c039b.css",
+    "main.js": "/Manish_Nalla/static/js/main.77c21b38.js",
     "static/media/expense-tracker-app.png": "/Manish_Nalla/static/media/expense-tracker-app.6c48a86e89b5fea48b7a.png",
     "static/media/Algorthims.png": "/Manish_Nalla/static/media/Algorthims.095fd49371f148e20f51.png",
     "static/media/capgemini.jpg": "/Manish_Nalla/static/media/capgemini.6b82259c0c9de0ed2eee.jpg",
     "static/media/oop.png": "/Manish_Nalla/static/media/oop.99bed27436bdeeb14c66.png",
     "index.html": "/Manish_Nalla/index.html",
-    "main.91487c14.css.map": "/Manish_Nalla/static/css/main.91487c14.css.map",
-    "main.bd07d39b.js.map": "/Manish_Nalla/static/js/main.bd07d39b.js.map"
+    "main.df5c039b.css.map": "/Manish_Nalla/static/css/main.df5c039b.css.map",
+    "main.77c21b38.js.map": "/Manish_Nalla/static/js/main.77c21b38.js.map"
   },
   "entrypoints": [
-    "static/css/main.91487c14.css",
-    "static/js/main.bd07d39b.js"
+    "static/css/main.df5c039b.css",
+    "static/js/main.77c21b38.js"
   ]
 }
