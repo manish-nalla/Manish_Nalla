@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import './Navbar.css';
 import { IoMenu, IoClose } from "react-icons/io5";
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [iconSize, setIconSize] = useState(60);
 
     const handleOpenMenu = () => {
         setIsMenuOpen(true);
@@ -12,6 +13,19 @@ const Navbar = () => {
     const handleCloseMenu = () => {
         setIsMenuOpen(false);
     }
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 480) {
+                setIconSize(30);
+            } else {
+                setIconSize(60);
+            }
+        };
+        window.addEventListener('resize', handleResize);
+        handleResize();
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     return (
         <div className="mainnavbar">
@@ -23,7 +37,7 @@ const Navbar = () => {
                 <li className="linkitem hideonmobile"><a href="#Skills">Skills</a></li>
                 <li className="linkitem hideonmobile"><a href="#projects">Projects</a></li>
                 <li className="linkitem hideonmobile"><a href="#Contact">Contact</a></li>
-                <li className="menubar" onClick={handleOpenMenu}><a href="#f"><IoMenu size={60} /></a></li>
+                <li className="menubar" onClick={handleOpenMenu}><a href="#f"><IoMenu size={iconSize} /></a></li>
             </ul>
             {isMenuOpen && (
                 <ul className="sidebar">
