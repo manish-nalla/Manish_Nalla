@@ -45,11 +45,11 @@
     border-bottom: 0.2rem solid var(--hoverColor);
 }
 
-.linkitem a.active{
+/* .linkitem a.active{
     color: var(--hoverColor);    
     padding-bottom: 0.3rem;
     border-bottom: 0.2rem solid var(--hoverColor);
-}
+} */
 
 .menubar{
     display: none;
