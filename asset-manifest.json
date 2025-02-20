@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Manish_Nalla/static/css/main.d11904ee.css",
+    "main.css": "/Manish_Nalla/static/css/main.4c48b461.css",
     "main.js": "/Manish_Nalla/static/js/main.80b282fc.js",
     "static/media/expense-tracker-app.png": "/Manish_Nalla/static/media/expense-tracker-app.6c48a86e89b5fea48b7a.png",
     "static/media/Algorthims.png": "/Manish_Nalla/static/media/Algorthims.095fd49371f148e20f51.png",
     "static/media/capgemini.jpg": "/Manish_Nalla/static/media/capgemini.6b82259c0c9de0ed2eee.jpg",
     "static/media/oop.png": "/Manish_Nalla/static/media/oop.99bed27436bdeeb14c66.png",
     "index.html": "/Manish_Nalla/index.html",
-    "main.d11904ee.css.map": "/Manish_Nalla/static/css/main.d11904ee.css.map",
+    "main.4c48b461.css.map": "/Manish_Nalla/static/css/main.4c48b461.css.map",
     "main.80b282fc.js.map": "/Manish_Nalla/static/js/main.80b282fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.d11904ee.css",
+    "static/css/main.4c48b461.css",
     "static/js/main.80b282fc.js"
   ]
 }
