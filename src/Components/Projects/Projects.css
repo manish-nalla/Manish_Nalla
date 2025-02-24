@@ -46,6 +46,7 @@
 .project_name{
     font-size: 1.5rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .project_technologies{
@@ -55,7 +56,7 @@
 
 .link_btn{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 

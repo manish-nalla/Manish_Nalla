@@ -146,8 +146,8 @@
     }
 
     .social-linkitems a{
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 3rem;
+        height: 3rem;
     }
 }
 
@@ -175,12 +175,7 @@
     }
 
     .social-linkitems{
-        padding: 0 1.5rem;
-    }
-
-    .social-linkitems a{
-        width: 2rem;
-        height: 2rem;
+        padding: 0 1rem;
     }
 }
 
