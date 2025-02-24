@@ -1,7 +1,7 @@
 import './Skills.css';
-import { FaPython, FaHtml5, FaBootstrap, FaCss3, FaReact, FaGit, FaGithub, } from "react-icons/fa";
+import { FaPython, FaHtml5, FaCss3, FaReact, FaGit, FaGithub, } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiMysql } from "react-icons/si";
+import { SiMysql, SiTailwindcss } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import oopImage from '../../Assets/oop.png';
 import dsImage from '../../Assets/ds.png';
@@ -28,7 +28,7 @@ const Skills = () => {
     const skills_array = [
         { id: 1, name: 'React.Js', icon: <FaReact className='icon_size' size={iconSize} /> },
         { id: 2, name: 'JavaScript', icon: <IoLogoJavascript className='icon_size' size={iconSize} /> },
-        { id: 3, name: 'Bootstrap', icon: <FaBootstrap className='icon_size' size={iconSize} /> },
+        { id: 3, name: 'Tailwind', icon: <SiTailwindcss className='icon_size' size={iconSize} /> },
         { id: 4, name: 'HTML5', icon: <FaHtml5 className='icon_size' size={iconSize} /> },
         { id: 5, name: 'CSS3', icon: <FaCss3 className='icon_size' size={iconSize} /> },
         { id: 6, name: 'Python', icon: <FaPython className='icon_size' size={iconSize} /> },
