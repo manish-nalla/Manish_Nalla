@@ -9,7 +9,7 @@ const Experience = () => {
                 <div className="company_logo">
                     <img src={capgemini} alt="Capgemini" className="logo" />
                     <p className="role">Software Engineer Intern</p>
-                    <p className="company_name">@Capgemini</p>
+                    <p className="company_name">@ Capgemini</p>
                     <p className="year"><i className="fa-regular fa-calendar"></i> March 2022 - July 2023</p>
                 </div>
                 <div className="description">
