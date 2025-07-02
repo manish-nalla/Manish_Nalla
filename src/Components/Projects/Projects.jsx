@@ -8,7 +8,7 @@ const Projects = () =>{
     const projects_array =[
         {id:1, name:"Expense Tracker", technologies: 'React, JavaScript', icon: <img src={expenseImage} alt='Expense_Tracker'/>, github: 'https://github.com/manish-nalla/expense_tracker'},
         {id:2, name:"Weather App", technologies: 'React, Tailwind, API Integration', icon: <img src={weatherImage} alt='Weather_Application'/>, github: 'https://github.com/manish-nalla/Weather'},
-        // {id:2, name:"Weather App", technologies: 'React, Tailwind, API Integration', icon: <img src={weatherImage} alt='Weather_Application'/>, github: 'https://github.com/manish-nalla/Weather'},
+        {id:3, name:"Weather App", technologies: 'React, Tailwind, API Integration', icon: <img src={weatherImage} alt='Weather_Application'/>, github: 'https://github.com/manish-nalla/Weather'},
         // {id:2, name:"Weather App", technologies: 'React, Tailwind, API Integration', icon: <img src={weatherImage} alt='Weather_Application'/>, github: 'https://github.com/manish-nalla/Weather'},
     ]
 
