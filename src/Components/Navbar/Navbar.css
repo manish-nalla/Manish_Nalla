@@ -37,6 +37,7 @@
     font-weight: 500;
     color: var(--main);
     transition: border-bottom 0.2s ease;
+    text-decoration: none;
 }
 
 .linkitem a:hover{

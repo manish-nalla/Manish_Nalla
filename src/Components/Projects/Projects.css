@@ -20,7 +20,7 @@
     flex-direction: column;
     line-height: 1.5;
     padding: 1.5rem;
-    background-color: rgb(70, 70, 70);
+    background-color: white;
     border: none;
     border-radius: 1rem;
     transition: all .2s ease-in-out;
@@ -29,8 +29,8 @@
 .card:hover{
     transform: scale(1) translateY(-4px);
     box-shadow: 0 0 10px rgb(0, 225, 255);
-    background-color: rgba(255, 255, 255, 0.664);
-    color: rgb(36, 36, 36);
+    background-color: rgb(228, 228, 228);
+    color: rgb(2, 2, 2);
 }
 
 .project_icon{
@@ -77,6 +77,7 @@
     background-color: rgb(0, 225, 255);
     box-shadow: 0 0 20px rgb(0, 225, 255);
     transform: scale(1) translateY(-2px);
+    color: black;
 }
 
 @media screen and (max-width: 1024px) {

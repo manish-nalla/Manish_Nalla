@@ -48,6 +48,7 @@
 .intropara a{
     color: var(--main);
     transition: color .3s ease;
+    text-decoration: none;
 }
 
 .intropara a:hover{
@@ -79,6 +80,7 @@
     font-size: 1.7rem;
     transition: 0.3s ease;
     color: var(--main);
+    text-decoration: none;
 }
 
 .social-linkitems a:hover{
