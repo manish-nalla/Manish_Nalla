@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/Manish_Nalla/static/css/main.18df9517.css",
-    "main.js": "/Manish_Nalla/static/js/main.22565fd8.js",
+    "main.js": "/Manish_Nalla/static/js/main.a7b37c1b.js",
     "static/media/expense-tracker-app.png": "/Manish_Nalla/static/media/expense-tracker-app.6c48a86e89b5fea48b7a.png",
     "static/media/Algorthims.png": "/Manish_Nalla/static/media/Algorthims.095fd49371f148e20f51.png",
+    "static/media/my_image.jpg": "/Manish_Nalla/static/media/my_image.0fffa3dfea947fea6737.jpg",
     "static/media/capgemini.jpg": "/Manish_Nalla/static/media/capgemini.6b82259c0c9de0ed2eee.jpg",
     "static/media/Weather-Application.png": "/Manish_Nalla/static/media/Weather-Application.39508eb4ea96813312bc.png",
     "static/media/oop.png": "/Manish_Nalla/static/media/oop.99bed27436bdeeb14c66.png",
     "index.html": "/Manish_Nalla/index.html",
     "main.18df9517.css.map": "/Manish_Nalla/static/css/main.18df9517.css.map",
-    "main.22565fd8.js.map": "/Manish_Nalla/static/js/main.22565fd8.js.map"
+    "main.a7b37c1b.js.map": "/Manish_Nalla/static/js/main.a7b37c1b.js.map"
   },
   "entrypoints": [
     "static/css/main.18df9517.css",
-    "static/js/main.22565fd8.js"
+    "static/js/main.a7b37c1b.js"
   ]
 }
