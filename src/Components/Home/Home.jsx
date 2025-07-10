@@ -1,6 +1,6 @@
 
 import './Home.css';
-// import my_image from '../../Assets/my_image.jpg';
+import my_image from '../../Assets/my_image.jpg';
 
 const Home = () => {
     return (
@@ -17,7 +17,7 @@ const Home = () => {
                     <li className="social-linkitems"><a href='/Manish-Nalla-Resume.pdf' target='_blank' rel='noopener noreferrer'><i className="fa-solid fa-download"></i></a></li>
                 </ul>
             </div>
-            {/* <img src={my_image} alt="Profile" className="bg" /> */}
+            <img src={my_image} alt="Profile" className="bg" />
         </section>
     );
 }
